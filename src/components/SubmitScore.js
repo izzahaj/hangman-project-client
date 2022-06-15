@@ -14,7 +14,7 @@ const SubmitScore = (props) => {
   const handleSubmit = (e) => {
     e.preventDefault()
     const token = document.querySelector('meta[name="csrf-token"]')
-    const url = "https://tothegallows.herokuapp.com//api/add-user"
+    const url = "https://tothegallows.herokuapp.com/api/add-user"
 
     fetch(url, {
       method: 'POST',

@@ -23,7 +23,7 @@ const Leaderboard = () => {
   let userLength = 1;
 
   useEffect(() => {
-    const url = "https://tothegallows.herokuapp.com//api/users"
+    const url = "https://tothegallows.herokuapp.com/api/users"
     fetch(url)
       .then(res => {
         if (!res.ok) {
